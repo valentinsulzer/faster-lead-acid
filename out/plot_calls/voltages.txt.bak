@@ -1,0 +1,35 @@
+\nextgroupplot[title={\textbf{(a)} $\mathrm{I}_\text{circuit}=1$A }, ylabel={Voltage, $V_\text{circuit}$ [V]}]
+\addplot[color=black, opacity=1]table{code/out/data/voltages/Numerical/I=1.dat};
+\label{pgfplots:Numerical}
+\addplot[dashdotdotted, color=green!70!black, opacity=1]table{code/out/data/voltages/LOQS/I=1.dat};
+\label{pgfplots:LOQS}
+\addplot[dotted, color=red, opacity=1]table{code/out/data/voltages/FOQS/I=1.dat};
+\label{pgfplots:FOQS}
+\addplot[dashed, color=blue, opacity=1]table{code/out/data/voltages/Composite/I=1.dat};
+\label{pgfplots:Composite}
+\nextgroupplot[title={\textbf{(b)} $\mathrm{I}_\text{circuit}=5$A }]
+\addplot[color=black, opacity=1]table{code/out/data/voltages/Numerical/I=5.dat};
+\addplot[dashdotdotted, color=green!70!black, opacity=1]table{code/out/data/voltages/LOQS/I=5.dat};
+\addplot[dotted, color=red, opacity=1]table{code/out/data/voltages/FOQS/I=5.dat};
+\addplot[dashed, color=blue, opacity=1]table{code/out/data/voltages/Composite/I=5.dat};
+\nextgroupplot[title={\textbf{(c)} $\mathrm{I}_\text{circuit}=10$A }]
+\addplot[color=black, opacity=1]table{code/out/data/voltages/Numerical/I=10.dat};
+\addplot[dashdotdotted, color=green!70!black, opacity=1]table{code/out/data/voltages/LOQS/I=10.dat};
+\addplot[dotted, color=red, opacity=1]table{code/out/data/voltages/FOQS/I=10.dat};
+\addplot[dashed, color=blue, opacity=1]table{code/out/data/voltages/Composite/I=10.dat};
+\nextgroupplot[title={\textbf{(d)} $\mathrm{I}_\text{circuit}=20$A }, ylabel={Voltage, $V_\text{circuit}$ [V]}]
+\addplot[color=black, opacity=1]table{code/out/data/voltages/Numerical/I=20.dat};
+\addplot[dashdotdotted, color=green!70!black, opacity=1]table{code/out/data/voltages/LOQS/I=20.dat};
+\addplot[dotted, color=red, opacity=1]table{code/out/data/voltages/FOQS/I=20.dat};
+\addplot[dashed, color=blue, opacity=1]table{code/out/data/voltages/Composite/I=20.dat};
+\nextgroupplot[title={\textbf{(e)} $\mathrm{I}_\text{circuit}=50$A }]
+\addplot[color=black, opacity=1]table{code/out/data/voltages/Numerical/I=50.dat};
+\addplot[dashdotdotted, color=green!70!black, opacity=1]table{code/out/data/voltages/LOQS/I=50.dat};
+\addplot[dotted, color=red, opacity=1]table{code/out/data/voltages/FOQS/I=50.dat};
+\addplot[dashed, color=blue, opacity=1]table{code/out/data/voltages/Composite/I=50.dat};
+\legend{Numerical,LOQS,FOQS,Composite}
+\nextgroupplot[title={\textbf{(f)} $\mathrm{I}_\text{circuit}=100$A }]
+\addplot[color=black, opacity=1]table{code/out/data/voltages/Numerical/I=100.dat};
+\addplot[dashdotdotted, color=green!70!black, opacity=1]table{code/out/data/voltages/LOQS/I=100.dat};
+\addplot[dotted, color=red, opacity=1]table{code/out/data/voltages/FOQS/I=100.dat};
+\addplot[dashed, color=blue, opacity=1]table{code/out/data/voltages/Composite/I=100.dat};

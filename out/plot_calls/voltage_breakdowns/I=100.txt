@@ -1,0 +1,7 @@
+\addplot table{code/out/data/voltages/breakdowns/init/I=100.dat}\closedcycle;
+\addplot table{code/out/data/voltages/breakdowns/Un/I=100.dat}\closedcycle;
+\addplot table{code/out/data/voltages/breakdowns/Up/I=100.dat}\closedcycle;
+\addplot table{code/out/data/voltages/breakdowns/etan/I=100.dat}\closedcycle;
+\addplot table{code/out/data/voltages/breakdowns/etap/I=100.dat}\closedcycle;
+\addplot table{code/out/data/voltages/breakdowns/c/I=100.dat}\closedcycle;
+\addplot table{code/out/data/voltages/breakdowns/o/I=100.dat}\closedcycle;

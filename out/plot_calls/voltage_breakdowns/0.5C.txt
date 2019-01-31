@@ -1,0 +1,7 @@
+\addplot table{code/out/data/voltages/breakdowns/init/0.5C.dat}\closedcycle;
+\addplot table{code/out/data/voltages/breakdowns/Un/0.5C.dat}\closedcycle;
+\addplot table{code/out/data/voltages/breakdowns/Up/0.5C.dat}\closedcycle;
+\addplot table{code/out/data/voltages/breakdowns/kn/0.5C.dat}\closedcycle;
+\addplot table{code/out/data/voltages/breakdowns/kp/0.5C.dat}\closedcycle;
+\addplot table{code/out/data/voltages/breakdowns/c/0.5C.dat}\closedcycle;
+\addplot table{code/out/data/voltages/breakdowns/o/0.5C.dat}\closedcycle;

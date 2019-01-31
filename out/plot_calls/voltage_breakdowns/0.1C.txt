@@ -1,0 +1,14 @@
+\addplot table{code/out/data/voltages/breakdowns/init/0.1C.dat}\closedcycle;
+\label{pgfplots:Vinit}
+\addplot table{code/out/data/voltages/breakdowns/Un/0.1C.dat}\closedcycle;
+\label{pgfplots:VUn}
+\addplot table{code/out/data/voltages/breakdowns/Up/0.1C.dat}\closedcycle;
+\label{pgfplots:VUp}
+\addplot table{code/out/data/voltages/breakdowns/kn/0.1C.dat}\closedcycle;
+\label{pgfplots:Vkn}
+\addplot table{code/out/data/voltages/breakdowns/kp/0.1C.dat}\closedcycle;
+\label{pgfplots:Vkp}
+\addplot table{code/out/data/voltages/breakdowns/c/0.1C.dat}\closedcycle;
+\label{pgfplots:Vc}
+\addplot table{code/out/data/voltages/breakdowns/o/0.1C.dat}\closedcycle;
+\label{pgfplots:Vo}

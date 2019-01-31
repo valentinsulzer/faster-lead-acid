@@ -1,0 +1,35 @@
+\nextgroupplot[title={\textbf{(a)} 0.1C }, ylabel={Voltage, $\di{V}_\text{circuit}$ [V]}]
+\addplot[color=black, opacity=1] table{code/out/data/voltages/Numerical/0.1C.dat};
+\label{pgfplots:Numerical}
+\addplot[dashdotdotted, color=green!70!black, opacity=1] table{code/out/data/voltages/LOQS/0.1C.dat};
+\label{pgfplots:LOQS}
+\addplot[dotted, color=red, opacity=1] table{code/out/data/voltages/FOQS/0.1C.dat};
+\label{pgfplots:FOQS}
+\addplot[dashed, color=blue, opacity=1] table{code/out/data/voltages/Composite/0.1C.dat};
+\label{pgfplots:Composite}
+\nextgroupplot[title={\textbf{(b)} 0.2C }]
+\addplot[color=black, opacity=1] table{code/out/data/voltages/Numerical/0.2C.dat};
+\addplot[dashdotdotted, color=green!70!black, opacity=1] table{code/out/data/voltages/LOQS/0.2C.dat};
+\addplot[dotted, color=red, opacity=1] table{code/out/data/voltages/FOQS/0.2C.dat};
+\addplot[dashed, color=blue, opacity=1] table{code/out/data/voltages/Composite/0.2C.dat};
+\nextgroupplot[title={\textbf{(c)} 0.5C }]
+\addplot[color=black, opacity=1] table{code/out/data/voltages/Numerical/0.5C.dat};
+\addplot[dashdotdotted, color=green!70!black, opacity=1] table{code/out/data/voltages/LOQS/0.5C.dat};
+\addplot[dotted, color=red, opacity=1] table{code/out/data/voltages/FOQS/0.5C.dat};
+\addplot[dashed, color=blue, opacity=1] table{code/out/data/voltages/Composite/0.5C.dat};
+\nextgroupplot[title={\textbf{(d)} 1C }, ylabel={Voltage, $\di{V}_\text{circuit}$ [V]}]
+\addplot[color=black, opacity=1] table{code/out/data/voltages/Numerical/1C.dat};
+\addplot[dashdotdotted, color=green!70!black, opacity=1] table{code/out/data/voltages/LOQS/1C.dat};
+\addplot[dotted, color=red, opacity=1] table{code/out/data/voltages/FOQS/1C.dat};
+\addplot[dashed, color=blue, opacity=1] table{code/out/data/voltages/Composite/1C.dat};
+\nextgroupplot[title={\textbf{(e)} 2C }]
+\addplot[color=black, opacity=1] table{code/out/data/voltages/Numerical/2C.dat};
+\addplot[dashdotdotted, color=green!70!black, opacity=1] table{code/out/data/voltages/LOQS/2C.dat};
+\addplot[dotted, color=red, opacity=1] table{code/out/data/voltages/FOQS/2C.dat};
+\addplot[dashed, color=blue, opacity=1] table{code/out/data/voltages/Composite/2C.dat};
+\legend{Numerical,LOQS,FOQS,Composite}
+\nextgroupplot[title={\textbf{(f)} 5C }]
+\addplot[color=black, opacity=1] table{code/out/data/voltages/Numerical/5C.dat};
+\addplot[dashdotdotted, color=green!70!black, opacity=1] table{code/out/data/voltages/LOQS/5C.dat};
+\addplot[dotted, color=red, opacity=1] table{code/out/data/voltages/FOQS/5C.dat};
+\addplot[dashed, color=blue, opacity=1] table{code/out/data/voltages/Composite/5C.dat};

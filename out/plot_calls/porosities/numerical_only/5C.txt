@@ -1,0 +1,4 @@
+\addplot[color=black, opacity=0.1] table{code/out/data/porosities/Numerical/5C_idx=0.dat};
+\addplot[color=black, opacity=0.4] table{code/out/data/porosities/Numerical/5C_idx=251.dat};
+\addplot[color=black, opacity=0.7] table{code/out/data/porosities/Numerical/5C_idx=502.dat};
+\addplot[color=black, opacity=0.9999999999999999] table{code/out/data/porosities/Numerical/5C_idx=570.dat};

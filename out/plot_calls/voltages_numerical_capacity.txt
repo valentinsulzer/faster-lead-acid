@@ -1,0 +1,7 @@
+\addplot table{code/out/data/voltages/Numerical_capacity/0.1C.dat};
+\addplot table{code/out/data/voltages/Numerical_capacity/0.2C.dat};
+\addplot table{code/out/data/voltages/Numerical_capacity/0.5C.dat};
+\addplot table{code/out/data/voltages/Numerical_capacity/1C.dat};
+\addplot table{code/out/data/voltages/Numerical_capacity/2C.dat};
+\addplot table{code/out/data/voltages/Numerical_capacity/5C.dat};
+\legend{0.1C, 0.2C, 0.5C, 1C, 2C, 5C}

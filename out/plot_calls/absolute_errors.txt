@@ -1,0 +1,3 @@
+\addplot[dashdotdotted, color=green!70!black, opacity=1] table{code/out/data/voltages/absolute_errors_LOQS.dat};
+\addplot[dotted, color=red, opacity=1] table{code/out/data/voltages/absolute_errors_FOQS.dat};
+\addplot[dashed, color=blue, opacity=1] table{code/out/data/voltages/absolute_errors_Composite.dat};

@@ -1,0 +1,35 @@
+\nextgroupplot[title={\textbf{(a)} 0.1C }, ylabel={Voltage, $V_\text{circuit}$ [V]}]
+\addplot[color=black, opacity=1] table{code/out/data/voltages/Numerical_capacity/0.1C.dat};
+\label{pgfplots:Numerical}
+\addplot[dashdotdotted, color=green!70!black, opacity=1] table{code/out/data/voltages/LOQS_capacity/0.1C.dat};
+\label{pgfplots:LOQS}
+\addplot[dotted, color=red, opacity=1] table{code/out/data/voltages/FOQS_capacity/0.1C.dat};
+\label{pgfplots:FOQS}
+\addplot[dashed, color=blue, opacity=1] table{code/out/data/voltages/Composite_capacity/0.1C.dat};
+\label{pgfplots:Composite}
+\nextgroupplot[title={\textbf{(b)} 0.2C }]
+\addplot[color=black, opacity=1] table{code/out/data/voltages/Numerical_capacity/0.2C.dat};
+\addplot[dashdotdotted, color=green!70!black, opacity=1] table{code/out/data/voltages/LOQS_capacity/0.2C.dat};
+\addplot[dotted, color=red, opacity=1] table{code/out/data/voltages/FOQS_capacity/0.2C.dat};
+\addplot[dashed, color=blue, opacity=1] table{code/out/data/voltages/Composite_capacity/0.2C.dat};
+\nextgroupplot[title={\textbf{(c)} 0.5C }]
+\addplot[color=black, opacity=1] table{code/out/data/voltages/Numerical_capacity/0.5C.dat};
+\addplot[dashdotdotted, color=green!70!black, opacity=1] table{code/out/data/voltages/LOQS_capacity/0.5C.dat};
+\addplot[dotted, color=red, opacity=1] table{code/out/data/voltages/FOQS_capacity/0.5C.dat};
+\addplot[dashed, color=blue, opacity=1] table{code/out/data/voltages/Composite_capacity/0.5C.dat};
+\nextgroupplot[title={\textbf{(d)} 1C }, ylabel={Voltage, $V_\text{circuit}$ [V]}]
+\addplot[color=black, opacity=1] table{code/out/data/voltages/Numerical_capacity/1C.dat};
+\addplot[dashdotdotted, color=green!70!black, opacity=1] table{code/out/data/voltages/LOQS_capacity/1C.dat};
+\addplot[dotted, color=red, opacity=1] table{code/out/data/voltages/FOQS_capacity/1C.dat};
+\addplot[dashed, color=blue, opacity=1] table{code/out/data/voltages/Composite_capacity/1C.dat};
+\nextgroupplot[title={\textbf{(e)} 2C }]
+\addplot[color=black, opacity=1] table{code/out/data/voltages/Numerical_capacity/2C.dat};
+\addplot[dashdotdotted, color=green!70!black, opacity=1] table{code/out/data/voltages/LOQS_capacity/2C.dat};
+\addplot[dotted, color=red, opacity=1] table{code/out/data/voltages/FOQS_capacity/2C.dat};
+\addplot[dashed, color=blue, opacity=1] table{code/out/data/voltages/Composite_capacity/2C.dat};
+\legend{Numerical,LOQS,FOQS,Composite}
+\nextgroupplot[title={\textbf{(f)} 5C }]
+\addplot[color=black, opacity=1] table{code/out/data/voltages/Numerical_capacity/5C.dat};
+\addplot[dashdotdotted, color=green!70!black, opacity=1] table{code/out/data/voltages/LOQS_capacity/5C.dat};
+\addplot[dotted, color=red, opacity=1] table{code/out/data/voltages/FOQS_capacity/5C.dat};
+\addplot[dashed, color=blue, opacity=1] table{code/out/data/voltages/Composite_capacity/5C.dat};

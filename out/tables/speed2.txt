@@ -1,0 +1,11 @@
+\begin{tabular}{|c|cc|cc|cc|}
+\hline
+& \multicolumn{2}{c|}{0.1C}& \multicolumn{2}{c|}{1C}& \multicolumn{2}{c|}{5C}\\
+\cline{2-7}
+Solution Method & Time (s) & Speed-up & Time (s) & Speed-up & Time (s) & Speed-up \\
+\hline
+Numerical & 0.867 & -  & 1.31 & -  & 1.39 & - \\
+LOQS & 0.002 & 566  & 0.002 & 854  & 0.002 & 883 \\
+FOQS & 0.005 & 173  & 0.005 & 250  & 0.005 & 268 \\
+Composite & 0.050 & 17 & 0.037 & 36  & 0.036 & 38 \\\hline
+\end{tabular}

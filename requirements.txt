@@ -1,0 +1,6 @@
+numpy
+scipy>=1.0.0
+dfogn
+DFO-LS
+pandas
+matplotlib

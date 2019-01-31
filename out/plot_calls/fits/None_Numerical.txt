@@ -1,0 +1,13 @@
+\addplot table{code/out/data/fits/None/Numerical/3A_model.dat};
+\addplot table{code/out/data/fits/None/Numerical/3A_data.dat};
+\addplot table{code/out/data/fits/None/Numerical/2.5A_model.dat};
+\addplot table{code/out/data/fits/None/Numerical/2.5A_data.dat};
+\addplot table{code/out/data/fits/None/Numerical/2A_model.dat};
+\addplot table{code/out/data/fits/None/Numerical/2A_data.dat};
+\addplot table{code/out/data/fits/None/Numerical/1.5A_model.dat};
+\addplot table{code/out/data/fits/None/Numerical/1.5A_data.dat};
+\addplot table{code/out/data/fits/None/Numerical/1A_model.dat};
+\addplot table{code/out/data/fits/None/Numerical/1A_data.dat};
+\addplot table{code/out/data/fits/None/Numerical/0.5A_model.dat};
+\addplot table{code/out/data/fits/None/Numerical/0.5A_data.dat};
+\legend{3A, ,2.5A, ,2A, ,1.5A, ,1A, ,0.5A}

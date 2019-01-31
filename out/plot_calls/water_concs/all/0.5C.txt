@@ -1,0 +1,16 @@
+\addplot[color=blue, opacity=0.1] table{code/out/data/water_concs/Numerical/0.5C_idx=0.dat};
+\addplot[color=blue, opacity=0.4] table{code/out/data/water_concs/Numerical/0.5C_idx=251.dat};
+\addplot[color=blue, opacity=0.7] table{code/out/data/water_concs/Numerical/0.5C_idx=502.dat};
+\addplot[color=blue, opacity=0.9999999999999999] table{code/out/data/water_concs/Numerical/0.5C_idx=753.dat};
+\addplot[color=blue, opacity=0.1] table{code/out/data/water_concs/LOQS/0.5C_idx=0.dat};
+\addplot[color=blue, opacity=0.4] table{code/out/data/water_concs/LOQS/0.5C_idx=251.dat};
+\addplot[color=blue, opacity=0.7] table{code/out/data/water_concs/LOQS/0.5C_idx=502.dat};
+\addplot[color=blue, opacity=0.9999999999999999] table{code/out/data/water_concs/LOQS/0.5C_idx=753.dat};
+\addplot[color=blue, opacity=0.1] table{code/out/data/water_concs/FOQS/0.5C_idx=0.dat};
+\addplot[color=blue, opacity=0.4] table{code/out/data/water_concs/FOQS/0.5C_idx=251.dat};
+\addplot[color=blue, opacity=0.7] table{code/out/data/water_concs/FOQS/0.5C_idx=502.dat};
+\addplot[color=blue, opacity=0.9999999999999999] table{code/out/data/water_concs/FOQS/0.5C_idx=753.dat};
+\addplot[color=blue, opacity=0.1] table{code/out/data/water_concs/Composite/0.5C_idx=0.dat};
+\addplot[color=blue, opacity=0.4] table{code/out/data/water_concs/Composite/0.5C_idx=251.dat};
+\addplot[color=blue, opacity=0.7] table{code/out/data/water_concs/Composite/0.5C_idx=502.dat};
+\addplot[color=blue, opacity=0.9999999999999999] table{code/out/data/water_concs/Composite/0.5C_idx=753.dat};

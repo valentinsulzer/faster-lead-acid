@@ -1,0 +1,14 @@
+\addplot table{code/out/data/voltages/breakdowns/init/I=1.7000000000000002.dat}\closedcycle;
+\label{pgfplots:Vinit}
+\addplot table{code/out/data/voltages/breakdowns/Un/I=1.7000000000000002.dat}\closedcycle;
+\label{pgfplots:VUn}
+\addplot table{code/out/data/voltages/breakdowns/Up/I=1.7000000000000002.dat}\closedcycle;
+\label{pgfplots:VUp}
+\addplot table{code/out/data/voltages/breakdowns/etan/I=1.7000000000000002.dat}\closedcycle;
+\label{pgfplots:Vetan}
+\addplot table{code/out/data/voltages/breakdowns/etap/I=1.7000000000000002.dat}\closedcycle;
+\label{pgfplots:Vetap}
+\addplot table{code/out/data/voltages/breakdowns/c/I=1.7000000000000002.dat}\closedcycle;
+\label{pgfplots:Vc}
+\addplot table{code/out/data/voltages/breakdowns/o/I=1.7000000000000002.dat}\closedcycle;
+\label{pgfplots:Vo}

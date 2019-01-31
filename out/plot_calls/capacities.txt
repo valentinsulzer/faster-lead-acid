@@ -1,0 +1,1 @@
+\addplot[color=black, opacity=1] table{code/out/data/capacities/Numerical.dat};
