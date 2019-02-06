@@ -3,7 +3,9 @@
 [![DOI](https://zenodo.org/badge/168505561.svg)](https://zenodo.org/badge/latestdoi/168505561)
 
 1This code is was used to produce plots for the two-part paper
-"Faster Lead-Acid Battery Models from Porous-Electrode Theory"
+"Faster Lead-Acid Battery Simulations from Porous-Electrode Theory"
+[I: Physical Model](https://arxiv.org/abs/1902.01771)
+[II: Asymptotic Analysis](https://arxiv.org/abs/1902.01774)
 
 For a well-documented, tested, and maintained version, please see [PyBaMM](https://github.com/tinosulzer/PyBaMM/).
 
